@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+ margin: 0;
+    padding: 0;
+}
+
+/* Khung vien tong the - luon can giua trang tuyet doi */
+.khung {
+    max-width: 1000px;
+    width: 96%;
+    margin: 20px auto !important;
+    border: 2px solid #000;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.tieu-de {
+    font-size: 26px;
+    border-bottom: 2px solid #000;
+    text-transform: uppercase;
+}
+
+.tieu-de a {
+    text-decoration: none;
+    color: #000;
+}
+
+.than-trang {
+    min-height: 480px;
+}
+
+.cot-trai {
+    border-right: 2px solid #000;
+    min-height: 480px;
+}
+
+@media (max-width: 767.98px) {
+    .cot-trai {
+        border-right: none;
+        border-bottom: 2px solid #000;
+        min-height: auto;
+    }
+}
+
+.cot-trai h3 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.menu-hang a:hover {
+    color: red !important;
+}
+
+/* Cot phai luon can giua san pham theo ca chieu ngang va doc */
+.cot-phai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 480px;
+    box-sizing: border-box;
+}
+
+/* Khung the san pham theo layout.docx */
+.product-card {
+    border: 3px solid #000;
+    padding: 15px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 320px;
+    box-sizing: border-box;
+}
+
+}
+
+.product-img-box {
+    border: 1px dashed gray;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.product-img-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.thong-tin {
+    font-size: 15px;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-red::marker {
+    color: red;
+}
+
+.text-red sup {
+    font-size: 11px;
+    vertical-align: super;
+}
+
+.chan-trang {
+    border-top: 2px solid #000 !important;
+    font-size: 16px;
+    line-height: 1.6;
+}
